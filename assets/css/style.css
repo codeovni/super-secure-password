@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&display=swap');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+body {
+    background: url(../images/ocean.jpg);
+}
+
+.container {
+    margin: 20vh auto;
+    width: 800px;
+    text-align: center;
+}
+
+.head {
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 65px;
+    color: #ffffff;
+    margin-bottom: 50px;
+    font-weight: 800;
+}
+
+.password {
+    margin-bottom: 10px;
+}
+
+.service {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 20px 30px 20px 50px;
+    font-size: 18px;
+    border-radius: 4px;
+    background: rgb(255 255 255 / 5%);
+    backdrop-filter: blur(5px);
+    color: rgb(255 255 255);
+    text-transform: lowercase;
+    font-family: 'Montserrat';
+    border: 1px solid rgb(0 0 0 / 35%);
+}
+
+input:focus {
+    outline: none;
+    background: rgb(255 255 255 / 10%);
+    border: 1px solid rgb(137 137 137 / 16%);
+}
+
+input::placeholder {
+    color: rgb(255 255 255 / 71%);
+}
+
+.result input {
+    padding: 20px 30px 20px 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    background: rgb(0 0 0 / 3%);
+    backdrop-filter: blur(5px);
+    color: rgb(255 255 255);
+    text-transform: lowercase;
+    font-family: 'Montserrat';
+    border: 1px solid rgb(94 94 94 / 22%);
+    width: 251px;
+    margin-left: -19px;
+}
+
+.result i:hover {
+    color: rgb(255 255 255);
+    cursor: pointer;
+}
+
+.result i {
+    color: rgb(255 255 255 / 16%);
+    font-size: 21px;
+    position: absolute;
+    width: 25px;
+    margin-left: 241px;
+    margin-top: 20px;
+    z-index: 1;
+}
+
+.service i {
+    margin-right: -42px;
+    position: relative;
+    color: rgb(255 255 255);
+    z-index: 1;
+    display: inline-block;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.password i {
+    margin-right: -42px;
+    position: relative;
+    color: rgb(255 255 255);
+    z-index: 1;
+    display: inline-block;
+    font-size: 18px;
+    vertical-align: middle;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Super Secure Password</title>
+
+        <link rel="stylesheet" href="./assets/css/style.css">
+
+    </head>
+    <body>
+
+        <div class="container">
+
+            <div class="head">Super <span id="secure">Secure</span> Password</div>
+
+            <div class="password">
+                <i class="fi fi-rr-password"></i>
+                <input type="password" id="password" spellcheck="false" placeholder="secret" onkeyup="passwordChange()" />
+            </div>
+
+            <div class="service">
+                <i class="fi fi-rr-hastag"></i>
+                <input type="text" id="service" spellcheck="false" placeholder="service" onkeyup="serviceChange()" />
+            </div>
+
+            <div class="result">
+                <i class="fi fi-rr-duplicate" onclick="copyToClipboard()"></i>
+                <input type="text" id="password-result" readonly />
+            </div>
+
+        </div>
+
+        <script src="./assets/js/utils/randomseed.min.js"></script>
+        <script src="./assets/js/app.js"></script>
+
+    </body>
+</html>
